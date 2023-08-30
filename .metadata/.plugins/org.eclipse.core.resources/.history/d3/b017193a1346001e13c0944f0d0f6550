@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+
+//1.한글 가능하게 만들기
+request.setCharacterEncoding("UTF-8");
+
+//2. 데이터 받기
+String userid= request.getParameter("userid");
+String userpw= request.getParameter("userpw");
+String username= request.getParameter("username");
+
+out.println(userid);
+%>

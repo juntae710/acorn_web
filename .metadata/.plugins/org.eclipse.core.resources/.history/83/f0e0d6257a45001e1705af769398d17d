@@ -1,0 +1,85 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+table {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 800px;
+	border: 1px solid black;
+}
+
+td:nth-child(1) {
+	width: 200px;
+	height: 30px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+td:nth-child(2) {
+	padding-left: 10px;
+	width: 600px;
+	height: 30px;
+	border: 1px solid black;
+	width: 600px;
+}
+</style>
+</head>
+<body>
+	<table>
+		<caption>
+			<strong>참가자 등록</strong>
+		</caption>
+
+		<tr>
+			<td>참가자ID</td>
+			<td><input type="text" name="regno"></td>
+		</tr>
+		<tr>
+			<td>참가자이름</td>
+			<td><input type="text" name="regno"></td>
+		</tr>
+		<tr>
+			<td>생년월일</td>
+			<td><input type="text" name="regno">년 <input type="text"
+				name="regno">월 <input type="text" name="regno">일</td>
+		</tr>
+		<tr>
+			<td>성별</td>
+			<td><input type="radio" name="regno">남 <input
+				type="radio" name="regno">여</td>
+		</tr>
+		<tr>
+			<td>실력무대</td>
+			<td><select name="state">
+					<option value="선택하기">선택</option>
+					<option>[V] 보컬</option>
+					<option>[D] 댄스</option>
+					<option>[R] 랩</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>매력무대</td>
+			<td><input type="text" name="regno"></td>
+		</tr>
+		<td colspan="2">
+
+			<button>저장</button>
+
+			<button>
+				<a href="택시예약.jsp">취소</a>
+			</button>
+
+		</td>
+	</table>
+</body>
+</html>

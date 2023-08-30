@@ -1,0 +1,9 @@
+package prj;
+
+public class Snippet {
+	public static void main(String[] args) {
+		out.println("</body>");
+				out.println("</html>");
+	}
+}
+

@@ -1,0 +1,88 @@
+<f%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>register_finish</title>
+<style type="text/css">
+*{
+padding: 0px;
+margin: 0px;
+
+}
+body{
+width: 1890px;
+border: 5px solid skyblue;
+margin: 0 auto;
+}
+header{
+text-align:center;
+margin: 0 auto;
+width: 285px;
+}
+section div{
+display: inline-block;
+}
+ul{
+list-style: none;
+width: 500px;
+}
+ul > li{
+padding: 10px;
+display: inline-block;
+
+}
+.b{
+width: 60%;
+}
+
+h1{
+	position: relative;
+	bottom: 500px;
+	left: 450px;
+}
+
+</style>
+</head>
+<body>
+	<header>
+		<img alt="" src="./img/로고.png">
+		<h2>🔵회원가입🔵</h2>
+	</header>
+	<nav>
+		<hr>
+		<ul>
+			<li><a href="register.jsp">회원가입</a></li>
+			<li><a href="결제하기.jsp">결제하기</a></li>
+			<li><a href="조회.jsp">사용자조회</a></li>
+			<li><a href="manager_list.jsp">관리자조회</a></li>
+			<li><a href="index.jsp">홈으로</a></li>
+		</ul>
+		<hr>
+	</nav>
+	<section>
+		<div>
+			<img alt="" src="./img/l마스코드.png">
+		</div>
+		<div class = "b">
+		
+		<!-- 바디 내용 -->
+	
+
+			<h1>결제가 완료되었습니다</h1>
+		
+		
+		
+		</div>
+		<div>
+			<img alt="" src="./img/r마스코드.png">
+		</div>
+		</section>
+	<footer>
+	
+	
+	
+	</footer>
+</body>
+</html>

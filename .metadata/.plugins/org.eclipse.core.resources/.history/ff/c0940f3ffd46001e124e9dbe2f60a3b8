@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+padding: 0px;
+margin: 0px;
+
+}
+body{
+width: 1890px;
+border: 5px solid skyblue;
+margin: 0 auto;
+}
+header{
+text-align:center;
+margin: 0 auto;
+width: 285px;
+}
+section div{
+display: inline-block;
+}
+ul{
+list-style: none;
+width: 500px;
+}
+ul > li{
+padding: 10px;
+display: inline-block;
+
+}
+.b{
+width: 60%;
+}
+table{
+	width: 700px;
+	border: 3px solid skyblue;
+	border-radius: 10px;
+	
+	margin:0 auto;
+	text-align: center;
+	margin-bottom: 200px;
+}
+
+
+tr:nth-child(1) td{
+	background-color: skyblue;
+	padding: 5px;
+}

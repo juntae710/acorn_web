@@ -1,0 +1,82 @@
+
+8월 28, 2023 15:22:31.852 NEW SESSION
+8월 28, 2023 15:22:31.852 [8656:11596:0828/152231.849:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+8월 28, 2023 15:22:31.853 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 28, 2023 15:22:31.853 ERROR: Time is after notAfter
+8월 28, 2023 15:22:31.853 
+8월 28, 2023 15:22:31.854 
+8월 28, 2023 15:24:36.255 [17124:8352:0828/152436.255:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c28.gcp.gvt2.com failed:
+8월 28, 2023 15:24:36.255 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 28, 2023 15:24:36.255 ERROR: Time is after notAfter
+8월 28, 2023 15:24:36.255 
+8월 28, 2023 15:24:36.256 
+8월 28, 2023 15:28:12.212 [17124:16012:0828/152812.212:ERROR:navigation_entry_remover.cc(221)] RemoveNavigationEntries(), deleted_rows count = 3, is_from_expiration = 0, deletion_reason = 1
+8월 28, 2023 16:22:54.160 [17124:16012:0828/162254.160:ERROR:navigation_entry_remover.cc(221)] RemoveNavigationEntries(), deleted_rows count = 5, is_from_expiration = 0, deletion_reason = 1
+8월 28, 2023 17:02:51.304 [1208:3636:0828/170251.303:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+8월 28, 2023 17:02:51.305 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 28, 2023 17:02:51.306 ERROR: Time is after notAfter
+8월 28, 2023 17:02:51.306 
+8월 28, 2023 17:02:51.307 
+
+8월 29, 2023 08:38:24.228 NEW SESSION
+8월 29, 2023 08:38:24.228 [16824:15172:0829/083824.225:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+8월 29, 2023 08:38:24.232 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 29, 2023 08:38:24.233 ERROR: Time is after notAfter
+8월 29, 2023 08:38:24.234 
+8월 29, 2023 08:38:24.235 
+8월 29, 2023 10:02:51.956 [16824:15172:0829/100251.955:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c15.gcp.gvt2.com failed:
+8월 29, 2023 10:02:51.956 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 29, 2023 10:02:51.956 ERROR: Time is after notAfter
+8월 29, 2023 10:02:51.956 
+8월 29, 2023 10:02:51.957 
+8월 29, 2023 10:02:52.442 [16824:15172:0829/100252.441:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c58.gcp.gvt2.com failed:
+8월 29, 2023 10:02:52.443 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 29, 2023 10:02:52.444 ERROR: Time is after notAfter
+8월 29, 2023 10:02:52.444 
+8월 29, 2023 10:02:52.445 
+8월 29, 2023 10:16:35.204 [16824:15172:0829/101635.204:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+8월 29, 2023 10:16:35.205 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 29, 2023 10:16:35.206 ERROR: Time is after notAfter
+8월 29, 2023 10:16:35.207 
+8월 29, 2023 10:16:35.207 
+8월 29, 2023 10:31:58.719 [16824:6600:0829/103158.718:ERROR:navigation_entry_remover.cc(221)] RemoveNavigationEntries(), deleted_rows count = 3, is_from_expiration = 0, deletion_reason = 1
+8월 29, 2023 12:07:52.200 [10068:16416:0829/120752.199:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+8월 29, 2023 12:07:52.202 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 29, 2023 12:07:52.203 ERROR: Time is after notAfter
+8월 29, 2023 12:07:52.204 
+8월 29, 2023 12:07:52.204 
+8월 29, 2023 14:04:43.510 [10068:17348:0829/140443.510:ERROR:navigation_entry_remover.cc(221)] RemoveNavigationEntries(), deleted_rows count = 0, is_from_expiration = 0, deletion_reason = 1
+8월 29, 2023 15:12:58.898 [16764:8000:0829/151258.892:ERROR:navigation_entry_remover.cc(221)] RemoveNavigationEntries(), deleted_rows count = 7, is_from_expiration = 0, deletion_reason = 1
+8월 29, 2023 15:51:59.722 [16764:8000:0829/155159.721:ERROR:navigation_entry_remover.cc(221)] RemoveNavigationEntries(), deleted_rows count = 4, is_from_expiration = 0, deletion_reason = 1
+8월 29, 2023 16:12:50.911 [16764:13120:0829/161250.911:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+8월 29, 2023 16:12:50.911 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 29, 2023 16:12:50.912 ERROR: Time is after notAfter
+8월 29, 2023 16:12:50.912 
+8월 29, 2023 16:12:50.912 
+8월 29, 2023 16:52:51.686 [16764:13120:0829/165251.685:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c32.gcp.gvt2.com failed:
+8월 29, 2023 16:52:51.689 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 29, 2023 16:52:51.689 ERROR: Time is after notAfter
+8월 29, 2023 16:52:51.689 
+8월 29, 2023 16:52:51.690 
+8월 29, 2023 16:56:21.919 [16764:13120:0829/165621.919:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for beacons.gcp.gvt2.com failed:
+8월 29, 2023 16:56:21.919 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 29, 2023 16:56:21.919 ERROR: Time is after notAfter
+8월 29, 2023 16:56:21.920 
+8월 29, 2023 16:56:21.920 
+8월 29, 2023 17:13:34.736 [16764:13120:0829/171334.736:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c36.gcp.gvt2.com failed:
+8월 29, 2023 17:13:34.738 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 29, 2023 17:13:34.738 ERROR: Time is after notAfter
+8월 29, 2023 17:13:34.739 
+8월 29, 2023 17:13:34.739 
+8월 29, 2023 17:17:45.334 [16764:13120:0829/171745.334:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for e2c54.gcp.gvt2.com failed:
+8월 29, 2023 17:17:45.335 ----- Certificate i=0 (CN=*.gcp.gvt2.com) -----
+8월 29, 2023 17:17:45.335 ERROR: Time is after notAfter
+8월 29, 2023 17:17:45.335 
+8월 29, 2023 17:17:45.335 
+
+8월 30, 2023 09:37:09.140 NEW SESSION
+8월 30, 2023 09:37:09.140 [3044:14816:0830/093709.139:ERROR:navigation_entry_remover.cc(221)] RemoveNavigationEntries(), deleted_rows count = 72, is_from_expiration = 0, deletion_reason = 1
+8월 30, 2023 14:23:35.400 [17516:14696:0830/142335.399:ERROR:navigation_entry_remover.cc(221)] RemoveNavigationEntries(), deleted_rows count = 16, is_from_expiration = 0, deletion_reason = 1
+8월 30, 2023 14:23:57.450 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 30, 2023 15:16:41.04 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 30, 2023 15:18:52.14 [18448:5216:0830/151852.013:ERROR:navigation_entry_remover.cc(221)] RemoveNavigationEntries(), deleted_rows count = 15, is_from_expiration = 0, deletion_reason = 1

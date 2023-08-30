@@ -1,0 +1,140 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	margin: 0 auto; width : 1890px;
+	border: 5px solid skyblue;
+	width: 1890px;
+}
+
+header {
+	text-align: center;
+	margin: 0 auto;
+	width: 285px;
+}
+
+section div {
+	display: inline-block;
+}
+
+ul {
+	list-style: none;
+	width: 400px;
+}
+
+ul>li {
+	padding: 10px;
+	display: inline-block;
+}
+
+.b {
+	width: 60%;
+	magin : 0 auto;
+}
+
+
+
+</style>
+</head>
+<body>
+	<header>
+		<img alt="" src="./img/로고.png">
+		<h2>🔵매표소 : 표 정보🔵</h2>
+	</header>
+	<nav>
+		<hr>
+		<ul>
+			<li><a href="register.jsp">회원가입</a></li>
+			<li><a href="register.jsp">결제하기</a></li>
+			<li><a href="list.jsp">조회</a></li>
+			<li><a href="index.jsp">홈으로</a></li>
+		</ul>
+		<hr>
+	</nav>
+	<section>
+		<div>
+			<img alt="" src="./img/l마스코드.png">
+		</div>
+		<div class="b">
+			<section>
+		<form name="frm" action="택시예약_action.jsp" method="post" onsubmit="return check()">
+			<table>
+				<caption>
+					<strong>결제하기</strong>
+				</caption>
+
+				<tr>
+					<td>영수증번호</td>
+					<td><input type="text" name="regno"></td>
+				</tr>
+				<tr>
+					<td>티켓번호</td>
+					<td><input type="text" name="regtime"></td>
+				</tr>
+				<tr>
+					<td>고객번호</td>
+					<td><input type="text" name="rddate"></td>
+				</tr>
+				<tr>
+					<td>결제날짜</td>
+					<td><input type="text" name="cusno"></td>
+				</tr>
+				<tr>
+					<td>결제방식</td>
+					<td><select  name="state">
+							<option value = "선택하기">선택하기</option>
+							<option value = "현금">현금</option>
+							<option value = "카트">카트</option>
+							<option value = "카카오페이">카카오페이</option>
+								<option value = "네이버페이">네이버페이</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>구매장수</td>
+					<td><input type="text" name="destination"></td>
+				</tr>
+				<tr>
+					<td>베차생태</td>
+					<td><select  name="state">
+							<option value = "선택하기">선택하기</option>
+							<option value = "P">[P] 배차완료</option>
+							<option value = "R">[R] 배차준비</option>
+							<option value = "X">[X] 배차미정</option>
+					</select></td>
+				</tr>
+				<tr>
+
+					<td colspan="2">
+
+						<button>결제하기</button>
+
+						<button>
+							<a href="index.jsp">돌아기기</a>
+						</button>
+
+					</td>
+				</tr>
+
+			</table>
+		</form>
+		
+		
+		
+		</div>
+		<div>
+			<img alt="" src="./img/r마스코드.png">
+		</div>
+	</section>
+	<footer> </footer>
+</body>
+</html>

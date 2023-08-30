@@ -1,0 +1,138 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	margin: 0 auto; width : 1890px;
+	border: 5px solid skyblue;
+	width: 1890px;
+}
+
+header {
+	text-align: center;
+	margin: 0 auto;
+	width: 285px;
+}
+
+section div {
+	display: inline-block;
+}
+
+ul {
+	list-style: none;
+	width: 400px;
+}
+
+ul>li {
+	padding: 10px;
+	display: inline-block;
+}
+
+.b {
+	width: 60%;
+	magin : 0 auto;
+}
+
+
+
+</style>
+</head>
+<body>
+	<header>
+		<img alt="" src="./img/로고.png">
+		<h2>🔵매표소 : 표 정보🔵</h2>
+	</header>
+	<nav>
+		<hr>
+		<ul>
+			<li><a href="register.jsp">회원가입</a></li>
+			<li><a href="register.jsp">결제하기</a></li>
+			<li><a href="list.jsp">조회</a></li>
+			<li><a href="index.jsp">홈으로</a></li>
+		</ul>
+		<hr>
+	</nav>
+	<section>
+		<div>
+			<img alt="" src="./img/l마스코드.png">
+		</div>
+		<div class="b">
+			<section>
+		<form name="frm" action="택시예약_action.jsp" method="post" onsubmit="return check()">
+			<table>
+				<caption>
+					<strong>결제하기</strong>
+				</caption>
+
+				<tr>
+					<td>예약번호</td>
+					<td><input type="text" name="regno"></td>
+				</tr>
+				<tr>
+					<td>예약시간</td>
+					<td><input type="text" name="regtime"></td>
+				</tr>
+				<tr>
+					<td>예약날짜</td>
+					<td><input type="text" name="rddate"></td>
+				</tr>
+				<tr>
+					<td>고객아이디</td>
+					<td><input type="text" name="cusno"></td>
+				</tr>
+				<tr>
+					<td>출발지</td>
+					<td><input type="text" name="startpoint"></td>
+				</tr>
+				<tr>
+					<td>목적지</td>
+					<td><input type="text" name="destination"></td>
+				</tr>
+				<tr>
+					<td>택시번호</td>
+					<td><input type="text" name="taxino"></td>
+				</tr>
+				<tr>
+					<td>베차생태</td>
+					<td><select  name="state">
+							<option value = "선택하기">선택하기</option>
+							<option value = "P">[P] 배차완료</option>
+							<option value = "R">[R] 배차준비</option>
+							<option value = "X">[X] 배차미정</option>
+					</select></td>
+				</tr>
+				<tr>
+
+					<td colspan="2">
+
+						<button>등록</button>
+
+						<button>
+							<a href="택시예약.jsp">다시입력</a>
+						</button>
+
+					</td>
+				</tr>
+
+			</table>
+		</form>
+		
+		
+		
+		</div>
+		<div>
+			<img alt="" src="./img/r마스코드.png">
+		</div>
+	</section>
+	<footer> </footer>
+</body>
+</html>
