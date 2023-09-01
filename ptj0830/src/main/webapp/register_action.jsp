@@ -39,14 +39,9 @@ try{
 	st.setString(3,usertel);
 	st.setString(4,userage);
 	
-	rs = st.executeQuery( ) ; 
+	 st.executeUpdate( ) ; 
  
-if( rs.next() ) {
-	out.print(rs.getString(1));  
-	out.print(rs.getString(2));
-	out.print(rs.getString(3));
-	out.print(rs.getString(4));
-}}catch(Exception e){
+}catch(Exception e){
 	e.printStackTrace();		
 }
 

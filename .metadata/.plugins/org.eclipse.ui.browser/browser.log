@@ -80,3 +80,51 @@
 8월 30, 2023 14:23:57.450 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 8월 30, 2023 15:16:41.04 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 8월 30, 2023 15:18:52.14 [18448:5216:0830/151852.013:ERROR:navigation_entry_remover.cc(221)] RemoveNavigationEntries(), deleted_rows count = 15, is_from_expiration = 0, deletion_reason = 1
+
+8월 31, 2023 10:15:36.999 NEW SESSION
+8월 31, 2023 10:15:36.999 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 31, 2023 10:35:47.147 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 31, 2023 10:58:26.690 [4496:9908:0831/105826.690:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+8월 31, 2023 10:58:54.574 [4496:9908:0831/105854.574:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+8월 31, 2023 10:59:26.947 [4496:9908:0831/105926.947:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 10:59:28.952 [4496:9908:0831/105928.952:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 10:59:40.672 [4496:9908:0831/105940.672:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 11:18:44.538 [4496:9908:0831/111844.537:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 31, 2023 11:19:01.707 [4496:9908:0831/111901.707:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 11:19:31.391 [4496:9908:0831/111931.391:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 11:20:34.752 [4496:9908:0831/112034.752:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 11:22:09.303 [4496:9908:0831/112209.303:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 11:25:18.959 [4496:9908:0831/112518.959:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 11:31:41.560 [4496:9908:0831/113141.559:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 11:35:42.74 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 31, 2023 11:35:47.762 [4444:12444:0831/113547.762:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 11:36:22.307 [4444:12444:0831/113622.306:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 11:37:26.353 [4444:12444:0831/113726.353:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 11:39:03.619 [4444:12444:0831/113903.619:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 11:42:55.748 [4444:12444:0831/114255.747:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 11:49:51.145 [4444:12444:0831/114951.145:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 12:00:03.277 [4444:12444:0831/120003.276:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 12:10:15.398 [4444:12444:0831/121015.398:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 12:13:03.257 [4444:12444:0831/121303.257:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+8월 31, 2023 16:02:08.757 [4444:12444:0831/160208.757:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+8월 31, 2023 16:02:08.772 [4444:12444:0831/160208.772:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+8월 31, 2023 16:02:10.790 [4444:12444:0831/160210.790:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+8월 31, 2023 16:02:25.272 [4444:12444:0831/160225.272:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+9월 01, 2023 09:21:28.243 NEW SESSION
+9월 01, 2023 09:21:28.243 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 01, 2023 09:21:57.577 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 01, 2023 11:44:43.70 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 01, 2023 12:15:25.42 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 01, 2023 15:40:55.378 [6848:3536:0901/154055.377:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+9월 01, 2023 15:41:04.456 [6848:3536:0901/154104.456:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9월 01, 2023 15:41:28.351 [6848:3536:0901/154128.351:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9월 01, 2023 15:42:20.640 [6848:3536:0901/154220.640:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9월 01, 2023 15:44:20.755 [6848:3536:0901/154420.754:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9월 01, 2023 15:48:22.218 [6848:3536:0901/154822.217:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9월 01, 2023 15:52:18.560 [6848:3536:0901/155218.560:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 01, 2023 15:52:32.664 [6848:3536:0901/155232.663:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9월 01, 2023 16:06:52.241 [6848:3536:0901/160652.241:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+9월 01, 2023 16:44:50.384 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 01, 2023 17:01:31.663 [14512:4224:0901/170131.663:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+9월 01, 2023 17:01:31.668 [14512:4224:0901/170131.667:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105

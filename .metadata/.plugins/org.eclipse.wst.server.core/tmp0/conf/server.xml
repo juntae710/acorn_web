@@ -160,7 +160,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\hbi\Documents\acron\eeWs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\hbi\Documents\acron\eeWs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ptj8301" path="/ptj0830" reloadable="true" source="org.eclipse.jst.jee.server:ptj8301"/></Host>
+      <Context docBase="C:\Users\hbi\Documents\acron\eeWs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\hbi\Documents\acron\eeWs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\prj0901" path="/prj0901" reloadable="true" source="org.eclipse.jst.jee.server:prj0901"/><Context docBase="C:\Users\hbi\Documents\acron\eeWs\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\sessionPrj" path="/sessionPrj" reloadable="true" source="org.eclipse.jst.jee.server:sessionPrj"/></Host>
     </Engine>
   </Service>
 </Server>
