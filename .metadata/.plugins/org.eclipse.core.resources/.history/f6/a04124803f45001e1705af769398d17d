@@ -1,5 +1,0 @@
-function hi (){
-	//alert("hi!");
-	let userNameTag= document.getElementById("userName");
-	let 
-}

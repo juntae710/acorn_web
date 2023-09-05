@@ -128,3 +128,10 @@
 9월 01, 2023 16:44:50.384 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 9월 01, 2023 17:01:31.663 [14512:4224:0901/170131.663:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
 9월 01, 2023 17:01:31.668 [14512:4224:0901/170131.667:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+9월 05, 2023 09:27:47.352 NEW SESSION
+9월 05, 2023 09:27:47.352 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 05, 2023 09:28:30.126 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 05, 2023 11:10:13.873 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 05, 2023 12:03:48.864 [1900:1788:0905/120348.863:ERROR:navigation_entry_remover.cc(221)] RemoveNavigationEntries(), deleted_rows count = 156, is_from_expiration = 0, deletion_reason = 1
+9월 05, 2023 12:04:03.554 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
