@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	<script>
+	function send(){
+		//$.ajax();  ( ) 인자정보를 객체타입으로 제공
+		
+		$.ajax({
+			type: "get",
+			dataType: "json",
+			url: "/movie_0906/movieDAO",
+			success: function(data){
+				//alert(data);
+				console.log(data);
+				$("#result").empty();
+				//console.log(data[0]);
+				//console.log(data[0].name  + data[0].time );
+				for(let i=0; i<data.length; i++){
+					$("#result").append("<hr>제목: "+data[i].name + "<br>상영시간: "+data[i].time);	
+				}
+				  			
+			  	//  $("#result").html(data[0].name + data[0].time);
+			},
+			error: function(){
+				alert("요청실패");
+				
+			}
+		})
+	}
+
+	</script>
+</head>
+
+<body>
+	<button onclick="send()">영화정보</button>	
+	
+	<div id="result">정보없음</div>
+</body>
+
+</html>
