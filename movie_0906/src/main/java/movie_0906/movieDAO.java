@@ -37,12 +37,12 @@ public class movieDAO {
 	
 	public ArrayList<movie>  getmovieList(){		
 		
-		 Connection con  =dbcon();		 
-		 String sql=" select  * from  movietbl ";
-		 ArrayList<movie> list = new ArrayList<>();
+		 Connection con  =dbcon();		 //dbcon 불러오기
+		 String sql=" select  * from  movietbl "; // sql 불러오기
+		 ArrayList<movie> list = new ArrayList<>(); // 불러온 sql 담을 공간 만들기
 		 
 		 try {
-			PreparedStatement pst  = con.prepareStatement(sql);
+			PreparedStatement pst  = con.prepareStatement(sql); // 
 			ResultSet rs = pst.executeQuery();
 			
 			while( rs.next()){				

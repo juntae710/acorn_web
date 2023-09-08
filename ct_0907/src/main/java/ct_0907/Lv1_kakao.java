@@ -1,0 +1,17 @@
+package ct_0907;
+
+import java.util.Arrays;
+
+public class Lv1_kakao {
+public static void main(String[] args) {
+	String[] id = {"muzi", "frodo", "apeach", "neo"};
+	String[] re = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
+	
+	String i = "muzi";
+	String r = "apeach muzi";
+	
+	String t = r.substring(r.lastIndexOf(" "));
+	System.out.println(t);
+	}
+
+}
