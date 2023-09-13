@@ -1,0 +1,12 @@
+package ct_0907;
+
+public class Lv_0_add {
+public static void main(String[] args) {
+	double	 s1 = 3;
+	  double s2 = 2;
+	    double result =Math.round(s1/s2*1000) ; 
+		System.out.println(result);
+}
+		
+
+}

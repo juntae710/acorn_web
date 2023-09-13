@@ -1,0 +1,24 @@
+package acorn;
+
+import java.util.ArrayList;
+
+public class as {
+public ArrayList<ac> selectAll(){
+	ad d=new ad();
+	ArrayList<ac> list=d.selectall();
+	
+	return list;
+}
+public ArrayList<ac> getListPage(int page,int pageSize){
+	ad d=new ad();
+	ArrayList<ac> list=d.getListPage(page,pageSize);
+	
+	return list;
+}
+public int getTotalCnt(){
+	ad d=new ad();
+	int count=d.getTotalCnt();
+	
+	return count;
+}
+}
