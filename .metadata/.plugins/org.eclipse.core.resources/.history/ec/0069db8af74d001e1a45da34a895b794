@@ -1,0 +1,6 @@
+package elprj;
+
+public class Book {
+String code;
+String name;
+}

@@ -1,0 +1,27 @@
+package ct_0907;
+
+public class Lv1_baby {
+	public static void main(String[] args) {
+		int answer = 0;
+		String[] babbling = { "ayaye", "uuu", "yeye", "yemawoo", "ayaayaa" };
+		for (int i = 0; i < babbling.length; i++) {
+			String b = babbling[i];
+			b = b.replaceFirst("aya", "1");
+			System.out.println(answer);
+			b = b.replaceFirst("ye", "1");
+			System.out.println(answer);
+			b = b.replaceFirst("woo", "1");
+			System.out.println(answer);
+			b = b.replaceFirst("ma", "1");
+			System.out.println(answer);
+			b = b.replaceFirst("1", "");
+			System.out.println(answer);
+
+			if (b == "") {
+				answer++;
+			}
+			System.out.println(answer);
+		}
+
+	}
+}

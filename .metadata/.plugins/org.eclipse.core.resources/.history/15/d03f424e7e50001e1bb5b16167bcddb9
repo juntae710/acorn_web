@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@page import="java.util.ArrayList" %>
+    <%@page import="acorn.ah" %>
+    <%@page import="acorn.ac" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+ah h = (h)request.getAttribute("h");
+%>
+<table>
+<tr>
+<td>아이디</td>
+<td>비밀번호</td>
+<td>이름</td>
+</tr>
+
+<tr>
+<td>아이디</td>
+<td>비밀번호</td>
+<td>이름</td>
+</tr>
+
+</table>
+</body>
+</html>

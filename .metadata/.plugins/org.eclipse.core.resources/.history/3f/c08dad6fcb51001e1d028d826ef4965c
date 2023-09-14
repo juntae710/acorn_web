@@ -1,0 +1,37 @@
+package prj_0913;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class MapEx {
+public static void main(String[] args) {
+	//Map
+	//키,값의 형태로 데이터에 저장함
+	//        키  ,   값
+	HashMap<String, String> map = new HashMap<>();
+	HashMap<String, ArrayList<String>> map2 = new HashMap<String, ArrayList<String>>();
+	
+	map.put("key1", "apple");
+	map.put("key2", "banana");
+	map.put("key3", "mango");
+	
+	String result1 = map.get("ket1");
+	String result2 = map.get("ket2");
+	String result3 = map.get("ket3");
+	
+	ArrayList<String> list = new ArrayList<>();
+	
+	list.add("apple");
+	list.add("banana");
+	list.add("mango");
+	
+	ArrayList<String> list2 = new ArrayList<>();
+	list.add("아메리카노");
+	list.add("라떼");
+	list.add("고구마라떼");
+	
+	map2.put("fruit", list);
+	map2.put("beverage", list);
+	
+}
+}

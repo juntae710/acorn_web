@@ -1,0 +1,12 @@
+package acorn;
+
+import java.util.ArrayList;
+
+public class as {
+public ArrayList<ac> selectAll(){
+	ad d=new ad();
+	ArrayList<ac> list=d.selectall();
+	
+	return list;
+}
+}

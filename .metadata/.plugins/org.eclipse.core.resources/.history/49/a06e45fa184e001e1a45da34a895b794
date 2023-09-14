@@ -1,0 +1,19 @@
+package ct_0907;
+
+public class d {
+public static void main(String[] args) {
+	String a = "ayayewoomauuuuu";
+	a=a.replaceFirst("ma", "1");
+	
+	System.out.println(a);
+	
+	a=a.replaceFirst("woo", "1");
+	System.out.println(a);
+	
+	a=a.replaceFirst("ye", "1");
+	System.out.println(a);
+	
+	a=a.replaceFirst("aya", "1");
+	System.out.println(a);
+}
+}

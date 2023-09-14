@@ -1,0 +1,21 @@
+package pm;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/no5")
+public class No_05 extends HttpServlet {
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		String[] like ={"책","게임","잠"};
+		
+		req.setAttribute("like", like);
+		req.getRequestDispatcher("WEB-INF/views/pm/no_05.jsp").forward(req, resp);
+	}
+}

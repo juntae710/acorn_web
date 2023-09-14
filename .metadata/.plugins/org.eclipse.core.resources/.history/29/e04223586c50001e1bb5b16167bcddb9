@@ -1,0 +1,14 @@
+<%@page import="page.PageHandler"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ page import="page.PageHandler" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<% PageHandler %>
+</body>
+</html>

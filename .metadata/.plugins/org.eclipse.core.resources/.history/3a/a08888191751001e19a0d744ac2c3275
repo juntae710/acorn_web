@@ -1,0 +1,35 @@
+package acorn;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ExTestTest {
+ExTest t = new ExTest();
+	@Test
+	void testAdd() {
+		//fail("Not yet implemented");
+		assertEquals(5, t.add(3, 2));
+	}
+
+	@Test
+	void testSub() {
+		assertEquals(5, t.add(10, 5));
+	}
+
+	@Test
+	void testMul() {
+		assertEquals(5, t.add(5,1));
+	}
+
+	@Test
+	void testDiv() {
+		assertEquals(5, t.add(10, 2));
+	}
+
+	@Test
+	void testAyk() {
+		assertArrayEquals({1,2,4,8}, t.ayk(8));
+	}
+
+}

@@ -1,0 +1,13 @@
+package ct_0907;
+
+public class Lv_0_add {
+public static void main(String[] args) {
+	double	 s1 = 7;
+	  double s2 = 3;
+	    double result =s1/s2; 
+	    result*=1000;
+		System.out.println(result);
+}
+		
+
+}

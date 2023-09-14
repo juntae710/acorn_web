@@ -1,0 +1,9 @@
+package ct_0907;
+
+public class d {
+public static void main(String[] args) {
+	String a = "wmaoo";
+	
+	a=a.replaceFirst("ma", "1")
+}
+}

@@ -1,0 +1,8 @@
+package ct_0907.acorn2;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+@WebServlet("/all2")
+public class a extends HttpServlet {
+
+}

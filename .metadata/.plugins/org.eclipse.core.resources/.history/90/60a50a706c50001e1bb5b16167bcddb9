@@ -1,0 +1,21 @@
+<%@page import="page.Member"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="page.PageHandler"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ page import="page.PageHandler" %>
+    <%@ page import="java.util.ArrayList" %>
+    <%@ page import="page.Member" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<% PageHandler handler = (PageHandler)request.getAttribute("handler");
+ArrayList<Member> list =(ArrayList<Member>)request.getAttribute("list");
+
+%>
+</body>
+</html>

@@ -1,0 +1,37 @@
+package ct_0907;
+
+public class d {
+public static void main(String[] args) {
+	class Solution {
+	    public int solution(String[] babbling) {
+	        int answer = 0;
+			String b= "";
+	        for (int i = 0; i < babbling.length; i++) {
+				b = babbling[i];
+				b = b.replaceFirst("aya", "a");
+				b = b.replaceFirst("ye", "b");
+				b = b.replaceFirst("woo", "c");
+				b = b.replaceFirst("ma", "d");
+	            for(int p1 = 0, int p2=1; p1<b.length, p2<b.length; p1++, p2++;){
+	                if(b[p1]!=b[p2]){
+	                    b = b.replace("a" || "b" || "c" || "d", "");
+	                }
+	                    
+	            }
+	            
+	            if (b == "") {
+					answer++;
+				}
+	   
+				
+
+				
+
+			}
+	        
+	        return answer;
+	    }
+	}
+	
+}
+}

@@ -1,0 +1,8 @@
+package acorn;
+
+public class a  {
+String id;
+String pw;
+String name;
+
+}

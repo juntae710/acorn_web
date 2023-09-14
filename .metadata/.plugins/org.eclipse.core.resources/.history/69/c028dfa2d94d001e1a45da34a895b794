@@ -1,0 +1,12 @@
+package ct_0907;
+
+public class Lv1_baby {
+public static void main(String[] args) {
+	
+	String[] babbling = {"ayaye","wooma"};
+	
+	for(int i=0; i<) {
+		
+	}
+}
+}

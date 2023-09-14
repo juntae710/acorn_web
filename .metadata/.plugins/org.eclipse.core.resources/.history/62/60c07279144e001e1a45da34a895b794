@@ -1,0 +1,8 @@
+package acorn3;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+@WebServlet("/a3")
+public class a  extends HttpServlet{
+
+}

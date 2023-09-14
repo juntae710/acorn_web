@@ -1,0 +1,13 @@
+package prj0912;
+
+public class Test {
+ public int add( int a , int b) {
+	return a+b;
+	
+}
+ public static void main(String[] args) {
+	Test test = new Test();
+	int result = test.add(5, 4);
+	System.out.println(result);
+}
+}

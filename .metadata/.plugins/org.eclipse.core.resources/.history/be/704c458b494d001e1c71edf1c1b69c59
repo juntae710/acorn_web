@@ -1,0 +1,11 @@
+package ct_0907;
+
+import java.util.Arrays;
+
+public class Lv1_kakao {
+public static void main(String[] args) {
+	int[] arr = {1, 2, 3, 3, 4, 4, 5};
+	arr = Arrays.stream(arr).distinct().toArray(); // [1, 2, 3, 4, 5]
+	System.out.println(arr);
+}
+}

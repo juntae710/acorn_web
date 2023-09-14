@@ -1,0 +1,27 @@
+<%@page import="java.util.HashMap"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ page import="java.util.ArrayList" %>
+    <%@ page import="java.util.HashMap" %>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<c:set val="list" value="${infos['fruit'] }"></c:set>
+<c:forEach var="item" items="${list }">
+${item }
+</c:forEach>
+
+<h2>음료 정보</h2>
+
+<c:set val="list" value="${infos['beverage'] }"></c:set>
+<ul>
+<li></li>
+
+</ul>
+</body>
+</html>

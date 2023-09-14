@@ -1,0 +1,11 @@
+package prj_0913;
+
+import java.util.HashSet;
+
+import org.eclipse.jdt.internal.compiler.util.HashtableOfObjectToIntArray;
+
+public class SetEx {
+public static void main(String[] args) {
+	HashSet<String> = fuite  = new HashSet<>();
+}
+}

@@ -1,0 +1,8 @@
+package pm;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+@WebServlet("/no1")
+public class No_01 extends HttpServlet{
+
+}

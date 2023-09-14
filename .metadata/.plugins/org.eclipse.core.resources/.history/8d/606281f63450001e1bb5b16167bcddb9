@@ -1,0 +1,15 @@
+package ct_0907;
+
+public class Lv1_baby {
+	public static void main(String[] args) {
+	    int age=40
+		int answer = 0;
+	        int y=2022;
+	        y-(age-1)= answer;
+	        System.out.println(answer);
+	        return answer;
+			}
+		}
+
+	}
+}
